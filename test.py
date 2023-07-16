@@ -1,7 +1,3 @@
-a = 2
-b = 3
+import random
 
-if a > b:
-    print(True)
-else:
-    print(False)
+print(random.randrange(1, 10))
